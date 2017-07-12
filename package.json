@@ -1,0 +1,28 @@
+{
+  "name": "notaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silviajoy/node-skeleton.git"
+  },
+  "author": "silviajoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silviajoy/node-skeleton/issues"
+  },
+  "homepage": "https://github.com/silviajoy/node-skeleton#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
